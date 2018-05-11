@@ -52,7 +52,7 @@ public class AppConvertTest {
 		}catch (java.io.FileNotFoundException e){  
 		    System.out.println("File not found: ");  
 		}catch(Exception e){
-			System.out.println("Error: "+e);  
+			System.out.println( "Error =>" + e);
 		}
 	}
 
